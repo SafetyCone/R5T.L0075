@@ -7,7 +7,7 @@ namespace R5T.L0075.Construction
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Demonstrations.Instance.Ensure_DirectoryPathExists();
         }
     }
 }
